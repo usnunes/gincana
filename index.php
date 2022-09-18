@@ -66,131 +66,128 @@
         <link href="css/sticky-footer-navbar.css" rel="stylesheet">
     </head>
 
-<body class="d-flex flex-column h-100">    
-<header>
-  <!-- Fixed navbar -->
-  <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="https://getbootstrap.com/docs/5.2/examples/sticky-footer-navbar/#" style="font-weight: bold;">PSJE - Gincana Bíblica</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!--<div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="https://getbootstrap.com/docs/5.2/examples/sticky-footer-navbar/#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://getbootstrap.com/docs/5.2/examples/sticky-footer-navbar/#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
-          </li>
-        </ul>        
-      </div>-->
+    <body class="d-flex flex-column h-100">    
+    <header>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="https://getbootstrap.com/docs/5.2/examples/sticky-footer-navbar/#" style="font-weight: bold;">PSJE - Gincana Bíblica</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--<div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://getbootstrap.com/docs/5.2/examples/sticky-footer-navbar/#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://getbootstrap.com/docs/5.2/examples/sticky-footer-navbar/#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+            </li>
+            </ul>        
+        </div>-->
+        </div>
+    </nav>
+    </header>
+
+    <!-- Begin page content -->
+    <main class="flex-shrink-0">
+    <div class="container">    
     </div>
-  </nav>
-</header>
+    <div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header"><h2 style="text-align: center;">Pontuação Gincana PSJE</h2></div>
+                <div class="card m-b-20">
+                    <canvas id="myChart" width="800" height="400" style="background-color: gainsboro;"></canvas>
+                </div>
+            </div>
+        </div>
+        <?php
+            $v1 = 60;
+            $v2 = 10;
+            $v3 = 30;
+            $v4 = 0;
+            $v5 = 10;
+            $v6 = 0;
+            $v7 = 10;
+            $v8 = 0;
+        ?>
+    </div>
+    </div>
+    </main>
 
-<!-- Begin page content -->
-<main class="flex-shrink-0">
-  <div class="container">    
-  </div>
-  <div class="container">
-   <div class="row justify-content-center">
-       <div class="col-md-8">
-           <div class="card">
-               <div class="card-header"><h2 style="text-align: center;">Pontuação Gincana PSJE</h2></div>
-               <div class="card m-b-20">
-                   <canvas id="myChart" width="800" height="400" style="background-color: gainsboro;"></canvas>
-               </div>
-           </div>
-       </div>
-       <?php
-           $v1 = 60;
-           $v2 = 10;
-           $v3 = 30;
-           $v4 = 0;
-           $v5 = 10;
-           $v6 = 0;
-           $v7 = 10;
-           $v8 = 0;
-       ?>
-   </div>
-</div>
-</main>
-
-<footer class="footer mt-auto py-3 bg-light">
-  <div class="container">
-    <span class="text-muted">Informações de rodapé aqui.</span>
-  </div>
-</footer>
-    <script src="chartjs/chart.min.js"></script>
-    <script src="https://getbootstrap.com/docs/5.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-    <script>
-     const ctx = document.getElementById('myChart');
-     const myChart = new Chart(ctx, {
-         type: 'bar',
-         data: {
-             labels: ['São Bento', 'Santo Afonso', 'São Gabriel', 'Santo Agostinho',
-                      'São Rafael', 'São Sebastião', 'São Miguel', 'São Domingos Sávio'],
-             datasets: [{
-                 label: 'Pontuação',
-                 data: [ "<?php echo $v1;?>", "<?php echo $v2;?>",
-                         "<?php echo $v3;?>", "<?php echo $v4;?>",
-                         "<?php echo $v5;?>", "<?php echo $v6;?>",
-                         "<?php echo $v7;?>", "<?php echo $v8;?>"],
-                 backgroundColor: [
-                     'RGBA( 0, 0, 0, 1 )',
-                     'RGBA( 138, 43, 226, 1 )',
-                     'RGBA( 0, 0, 255, 1 )',
-                     'RGBA( 178, 34, 34, 1 )',
-                     'RGBA( 0, 128, 0, 1 )',
-                     'RGBA( 255, 215, 0, 1 )',
-                     'RGBA( 255, 140, 0, 1 )',
-                     'RGBA( 255, 255, 255, 1 )'
-                 ],
-                 borderColor: [
-                     'RGBA( 0, 0, 0, 1 )',
-                     'RGBA( 138, 43, 226, 1 )',
-                     'RGBA( 0, 0, 255, 1 )',
-                     'RGBA( 178, 34, 34, 1 )',
-                     'RGBA( 0, 128, 0, 1 )',
-                     'RGBA( 255, 215, 0, 1 )',
-                     'RGBA( 255, 140, 0, 1 )',
-                     'RGBA( 169, 169, 169, 1 )'
-                 ],
-                 borderWidth: 1
-             }]
-         },
-         options: {
-             plugins: {
-                 autocolors: false,
-                 annotation: {
-                     annotations: {
-                         box1: {
- 
-                             type: 'box',
-                             xMin: 0.5,
-                             xMax: 1.5,
-                             yMin: 0,
-                             yMax: 2
-                         }
-                     }
-                 }
-             },
-             scales: {
-                 y: {
-                     beginAtZero: true
-                 }
-             }
-         },
-         plugins: ['chart-plugin-annotation']
- 
-     });
- </script>
-
-      
-  
-
-</body></html>
+    <footer class="footer mt-auto py-3 bg-light">
+    <div class="container">
+        <span class="text-muted">Paróquia São José Esposo - Diocese Guiratinga/Rondonópolis-MT - Gincana Bíblica - 2022.</span>
+    </div>
+    </footer>
+        <script src="chartjs/chart.min.js"></script>
+        <script src="https://getbootstrap.com/docs/5.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+        <script>
+        const ctx = document.getElementById('myChart');
+        const myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['São Bento', 'Santo Afonso', 'São Gabriel', 'Santo Agostinho',
+                        'São Rafael', 'São Sebastião', 'São Miguel', 'São Domingos Sávio'],
+                datasets: [{
+                    label: 'Pontuação',
+                    data: [ "<?php echo $v1;?>", "<?php echo $v2;?>",
+                            "<?php echo $v3;?>", "<?php echo $v4;?>",
+                            "<?php echo $v5;?>", "<?php echo $v6;?>",
+                            "<?php echo $v7;?>", "<?php echo $v8;?>"],
+                    backgroundColor: [
+                        'RGBA( 0, 0, 0, 1 )',
+                        'RGBA( 138, 43, 226, 1 )',
+                        'RGBA( 0, 0, 255, 1 )',
+                        'RGBA( 178, 34, 34, 1 )',
+                        'RGBA( 0, 128, 0, 1 )',
+                        'RGBA( 255, 215, 0, 1 )',
+                        'RGBA( 255, 140, 0, 1 )',
+                        'RGBA( 255, 255, 255, 1 )'
+                    ],
+                    borderColor: [
+                        'RGBA( 0, 0, 0, 1 )',
+                        'RGBA( 138, 43, 226, 1 )',
+                        'RGBA( 0, 0, 255, 1 )',
+                        'RGBA( 178, 34, 34, 1 )',
+                        'RGBA( 0, 128, 0, 1 )',
+                        'RGBA( 255, 215, 0, 1 )',
+                        'RGBA( 255, 140, 0, 1 )',
+                        'RGBA( 169, 169, 169, 1 )'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                plugins: {
+                    autocolors: false,
+                    annotation: {
+                        annotations: {
+                            box1: {
+    
+                                type: 'box',
+                                xMin: 0.5,
+                                xMax: 1.5,
+                                yMin: 0,
+                                yMax: 2
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            },
+            plugins: ['chart-plugin-annotation']
+    
+        });
+    </script>
+    </body>
+</html>
