@@ -90,34 +90,90 @@
         </div>-->
         </div>
     </nav>
-    </header>
-
+    </header>    
     <!-- Begin page content -->
     <main class="flex-shrink-0">
-    <div class="container">    
-    </div>
-    <div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header"><h2 style="text-align: center;">Pontuação Gincana PSJE</h2></div>
-                <div class="card m-b-20">
-                    <canvas id="myChart" width="800" height="400" style="background-color: gainsboro;"></canvas>
-                </div>
-            </div>
+        <div class="container">    
         </div>
-        <?php
-            $v1 = 60;
-            $v2 = 10;
-            $v3 = 30;
-            $v4 = 0;
-            $v5 = 10;
-            $v6 = 0;
-            $v7 = 10;
-            $v8 = 0;
-        ?>
-    </div>
-    </div>
+        <div class="row" style="justify-content: center;text-align: center; margin-top: 20px;">
+            <div class="col-xl-5 col-lg-6">
+
+                <div class="row" style="justify-content: center;text-align: center;">
+                    <div class="col-sm-6" style="margin-top: 15px;margin-bottom: 15px;padding-left: 24px;">
+                        <div class="card widget-flat">
+                            <div class="card-body">
+                                <div class="float-end">
+                                    <i class="mdi mdi-account-multiple widget-icon"></i>
+                                </div>
+                                <h5 class="text-muted fw-normal mt-0" title="Number of Customers">Pontuação Geral - Todas as Provas</h5>
+                                <h3 class="mt-3 mb-3">340</h3>
+                                <a type="button" href="grupo-oracao.php" class="btn btn-secondary">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+                                    <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"></path>
+                                    <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"></path>
+                                    </svg>
+                                    Visualizar
+                                </a>
+                            </div>
+                        </div> 
+                    </div> 
+
+                    <div class="col-sm-6" style="margin-top: 15px;margin-bottom: 15px;padding-left: 24px;">
+                        <div class="card widget-flat">
+                            <div class="card-body">
+                                <div class="float-end">
+                                    <i class="mdi mdi-cart-plus widget-icon"></i>
+                                </div>
+                                <h5 class="text-muted fw-normal mt-0" title="Number of Orders">Participações em Grupo de Oração</h5>
+                                <h3 class="mt-3 mb-3">34</h3>
+                                <a type="button" href="geral.php" class="btn btn-secondary">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+                                    <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"></path>
+                                    <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"></path>
+                                    </svg>
+                                    Visualizar
+                                </a>
+                            </div>
+                        </div> 
+                    </div> 
+                </div> 
+
+                <!--<div class="row">
+                    <div class="col-sm-6" style="margin-top: 15px;margin-bottom: 15px;padding-left: 24px;">
+                        <div class="card widget-flat">
+                            <div class="card-body">
+                                <div class="float-end">
+                                    <i class="mdi mdi-currency-usd widget-icon"></i>
+                                </div>
+                                <h5 class="text-muted fw-normal mt-0" title="Average Revenue">Revenue</h5>
+                                <h3 class="mt-3 mb-3">$6,254</h3>
+                                <p class="mb-0 text-muted">
+                                    <span class="text-danger me-2"><i class="mdi mdi-arrow-down-bold"></i> 7.00%</span>
+                                    <span class="text-nowrap">Since last month</span>
+                                </p>
+                            </div>
+                        </div> 
+                    </div> 
+
+                    <div class="col-sm-6" style="margin-top: 15px;margin-bottom: 15px;padding-left: 24px;">
+                        <div class="card widget-flat">
+                            <div class="card-body">
+                                <div class="float-end">
+                                    <i class="mdi mdi-pulse widget-icon"></i>
+                                </div>
+                                <h5 class="text-muted fw-normal mt-0" title="Growth">Growth</h5>
+                                <h3 class="mt-3 mb-3">+ 30.56%</h3>
+                                <p class="mb-0 text-muted">
+                                    <span class="text-success me-2"><i class="mdi mdi-arrow-up-bold"></i> 4.87%</span>
+                                    <span class="text-nowrap">Since last month</span>
+                                </p>
+                            </div>
+                        </div> 
+                    </div> 
+                </div>--> 
+
+            </div>
+        </div>    
     </main>
 
     <footer class="footer mt-auto py-3 bg-light">
@@ -127,67 +183,6 @@
     </footer>
         <script src="chartjs/chart.min.js"></script>
         <script src="https://getbootstrap.com/docs/5.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-        <script>
-        const ctx = document.getElementById('myChart');
-        const myChart = new Chart(ctx, {
-            type: 'bar',
-            data: {
-                labels: ['São Bento', 'Santo Afonso', 'São Gabriel', 'Santo Agostinho',
-                        'São Rafael', 'São Sebastião', 'São Miguel', 'São Domingos Sávio'],
-                datasets: [{
-                    label: 'Pontuação',
-                    data: [ "<?php echo $v1;?>", "<?php echo $v2;?>",
-                            "<?php echo $v3;?>", "<?php echo $v4;?>",
-                            "<?php echo $v5;?>", "<?php echo $v6;?>",
-                            "<?php echo $v7;?>", "<?php echo $v8;?>"],
-                    backgroundColor: [
-                        'RGBA( 0, 0, 0, 1 )',
-                        'RGBA( 138, 43, 226, 1 )',
-                        'RGBA( 0, 0, 255, 1 )',
-                        'RGBA( 178, 34, 34, 1 )',
-                        'RGBA( 0, 128, 0, 1 )',
-                        'RGBA( 255, 215, 0, 1 )',
-                        'RGBA( 255, 140, 0, 1 )',
-                        'RGBA( 255, 255, 255, 1 )'
-                    ],
-                    borderColor: [
-                        'RGBA( 0, 0, 0, 1 )',
-                        'RGBA( 138, 43, 226, 1 )',
-                        'RGBA( 0, 0, 255, 1 )',
-                        'RGBA( 178, 34, 34, 1 )',
-                        'RGBA( 0, 128, 0, 1 )',
-                        'RGBA( 255, 215, 0, 1 )',
-                        'RGBA( 255, 140, 0, 1 )',
-                        'RGBA( 169, 169, 169, 1 )'
-                    ],
-                    borderWidth: 1
-                }]
-            },
-            options: {
-                plugins: {
-                    autocolors: false,
-                    annotation: {
-                        annotations: {
-                            box1: {
-    
-                                type: 'box',
-                                xMin: 0.5,
-                                xMax: 1.5,
-                                yMin: 0,
-                                yMax: 2
-                            }
-                        }
-                    }
-                },
-                scales: {
-                    y: {
-                        beginAtZero: true
-                    }
-                }
-            },
-            plugins: ['chart-plugin-annotation']
-    
-        });
-    </script>
+        
     </body>
 </html>
