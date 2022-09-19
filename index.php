@@ -121,7 +121,7 @@
     </main>
 
     <footer class="footer mt-auto py-3 bg-light">
-    <div class="container">
+    <div class="container" style="text-align: center;">
         <span class="text-muted">Paróquia São José Esposo - Diocese Guiratinga/Rondonópolis-MT - Gincana Bíblica - 2022.</span>
     </div>
     </footer>
