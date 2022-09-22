@@ -107,14 +107,14 @@
             </div>
         </div>
         <?php
-            $al1 = 60; //Preto - São Bento
-            $al2 = 10; //Roxo - Santo Afonso
-            $al3 = 30; //Azul - São Gabriel
-            $al4 = 10; //Vermelho - Santo Agostinho 
-            $al5 = 10; //Verde - São Rafael
-            $al6 = 10; //Amarelo - São Sebastião
-            $al7 = 10; //Laranja - São Miguel
-            $al8 = 10; //Branco - São Domingo Sávio
+            $al1 = 2; //Preto - São Bento
+            $al2 = 150; //Roxo - Santo Afonso
+            $al3 = 0; //Azul - São Gabriel
+            $al4 = 48; //Vermelho - Santo Agostinho 
+            $al5 = 110; //Verde - São Rafael
+            $al6 = 18; //Amarelo - São Sebastião
+            $al7 = 0; //Laranja - São Miguel
+            $al8 = 0; //Branco - São Domingo Sávio
         ?>
     </div>
     </div>
