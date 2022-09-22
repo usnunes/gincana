@@ -116,14 +116,14 @@
             </div>
         </div>
         <?php
-            $pg1 = 60+70; //Preto - São Bento
-            $pg2 = 10+30; //Roxo - Santo Afonso
-            $pg3 = 30+70; //Azul - São Gabriel
-            $pg4 = 0+40; //Vermelho - Santo Agostinho 
-            $pg5 = 10+10; //Verde - São Rafael
-            $pg6 = 0+0; //Amarelo - São Sebastião
-            $pg7 = 10+0; //Laranja - São Miguel
-            $pg8 = 0+0; //Branco - São Domingo Sávio
+            $pg1 = 60+70 + 2; //Preto - São Bento
+            $pg2 = 10+30 + 150; //Roxo - Santo Afonso
+            $pg3 = 30+70 + 0; //Azul - São Gabriel
+            $pg4 = 0+40  + 48; //Vermelho - Santo Agostinho 
+            $pg5 = 10+10 + 110; //Verde - São Rafael
+            $pg6 = 0+0   + 18; //Amarelo - São Sebastião
+            $pg7 = 10+0  + 0; //Laranja - São Miguel
+            $pg8 = 0+0   + 0; //Branco - São Domingo Sávio
         ?>
     </div>
     </div>
