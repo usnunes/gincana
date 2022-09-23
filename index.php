@@ -100,7 +100,7 @@
                                     <i class="mdi mdi-account-multiple widget-icon"></i>
                                 </div>
                                 <h5 class="text-muted mt-0" title="Number of Customers">Pontuação Geral - Todas as Provas</h5>
-                                <h3 class="mt-3 mb-3">668</h3>
+                                <h3 class="mt-3 mb-3"><?php echo $pg1+$pg2+$pg3+$pg4+$pg5+$pg6+$pg7+$pg8 ?></h3>
                                 <a type="button" href="geral.php" class="btn btn-secondary" style="--bs-btn-hover-bg: rgb(95,158,160);" >
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
                                     <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"></path>
@@ -119,7 +119,7 @@
                                     <i class="mdi mdi-cart-plus widget-icon"></i>
                                 </div>
                                 <h5 class="text-muted mt-0" title="Number of Orders">Participações em Grupo de Oração</h5>
-                                <h3 class="mt-3 mb-3">34</h3>
+                                <h3 class="mt-3 mb-3"><?php echo ($go1+$go2+$go3+$go4+$go5+$go6+$go7+$go8)/10 ?></h3>
                                 <a type="button" href="grupo-oracao.php" class="btn btn-secondary" style="--bs-btn-hover-bg: #2876c3;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
                                     <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"></path>
@@ -140,7 +140,7 @@
                                     <i class="mdi mdi-currency-usd widget-icon"></i>
                                 </div>
                                 <h5 class="text-muted mt-0" title="Average Revenue">Arrecadação de Alimentos</h5>
-                                <h3 class="mt-3 mb-3">164Kg</h3>
+                                <h3 class="mt-3 mb-3"><?php echo ($al1+$al2+$al3+$al4+$al5+$al6+$al7+$al8)/2 ?>Kg</h3>
                                 <a type="button" href="alimentos.php" class="btn btn-secondary" style="--bs-btn-hover-bg: #2876c3;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
                                     <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"></path>
@@ -158,8 +158,8 @@
                                 <div class="float-end">
                                     <i class="mdi mdi-pulse widget-icon"></i>
                                 </div>
-                                <h5 class="text-muted mt-0" title="Growth">Grito de Guerra</h5>
-                                <h3 class="mt-3 mb-3">0</h3>
+                                <h5 class="text-muted mt-0" title="Growth">Gritos de Guerra</h5>
+                                <h3 class="mt-3 mb-3"><?php echo ($gg1+$gg2+$gg3+$gg4+$gg5+$gg6+$gg7+$gg8)/50 ?></h3>
                                  <a type="button" href="grito-guerra.php" class="btn btn-secondary" style="--bs-btn-hover-bg: #2876c3;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
                                     <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"></path>
@@ -179,7 +179,7 @@
                                     <i class="mdi mdi-currency-usd widget-icon"></i>
                                 </div>
                                 <h5 class="text-muted mt-0" title="Average Revenue">Bíblias</h5>
-                                <h3 class="mt-3 mb-3">0</h3>
+                                <h3 class="mt-3 mb-3"><?php echo ($bb1+$bb2+$bb3+$bb4+$bb5+$bb6+$bb7+$bb8)/10 ?></h3>
                                 <a type="button" href="biblias.php" class="btn btn-secondary" style="--bs-btn-hover-bg: #2876c3;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
                                     <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"></path>
@@ -198,7 +198,7 @@
                                     <i class="mdi mdi-pulse widget-icon"></i>
                                 </div>
                                 <h5 class="text-muted mt-0" title="Growth">Jogos Bíblicos</h5>
-                                <h3 class="mt-3 mb-3">0</h3>
+                                <h3 class="mt-3 mb-3"><?php echo ($jb1+$jb2+$jb3+$jb4+$jb5+$jb6+$jb7+$jb8) ?></h3>
                                  <a type="button" href="jogos-biblicos.php" class="btn btn-secondary" style="--bs-btn-hover-bg: #2876c3;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
                                     <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"></path>

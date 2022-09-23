@@ -1,5 +1,5 @@
 <?php 
-	$ultAtualização = '23/09/2022 00:20';
+	$ultAtualização = '23/09/2022 00:30';
  	
 	//Pontuação - Grupo de Oração
 	$go1 = 60 + 70; 		//Preto - São Bento
@@ -30,7 +30,7 @@
 	$gg6 = 50; 			//Amarelo - São Sebastião
 	$gg7 = 50; 			//Laranja - São Miguel
 	$gg8 = 50; 			//Branco - São Domingo Sávio
-
+	
 	//Pontuação - Bíblias
 	$bb1 = 00; 			//Preto - São Bento
 	$bb2 = 00; 			//Roxo - Santo Afonso
