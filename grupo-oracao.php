@@ -71,23 +71,11 @@
     <!-- Fixed navbar -->
     <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
         <div class="container-fluid">
-        <a class="navbar-brand" href="https://getbootstrap.com/docs/5.2/examples/sticky-footer-navbar/#" style="font-weight: bold;">PSJE - Gincana Bíblica</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <!--<div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="https://getbootstrap.com/docs/5.2/examples/sticky-footer-navbar/#">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://getbootstrap.com/docs/5.2/examples/sticky-footer-navbar/#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-            </li>
-            </ul>        
-        </div>-->
+            <a class="navbar-brand" href="index.php" style="font-weight: bold;">PSJE - Gincana Bíblica</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <?php include_once "menu.php"; ?>
         </div>
     </nav>
     </header>
@@ -106,7 +94,7 @@
             Início
         </a>   
     </div>
-    <div class="container">        
+    <div class="container" style="padding-top: 10px;">       
     <div class="row justify-content-center">
         <div class="col-md-6">
             <div class="card">
@@ -116,15 +104,8 @@
                 </div>
             </div>
         </div>
-        <?php
-            $go1 = 60+70; //Preto - São Bento
-            $go2 = 10+30; //Roxo - Santo Afonso
-            $go3 = 30+70; //Azul - São Gabriel
-            $go4 = 0+40; //Vermelho - Santo Agostinho 
-            $go5 = 10+10; //Verde - São Rafael
-            $go6 = 0+0; //Amarelo - São Sebastião
-            $go7 = 10+0; //Laranja - São Miguel
-            $go8 = 0+0; //Branco - São Domingo Sávio
+        <?php            
+            include_once "pontuacao.php";
         ?>
     </div>
     </div>

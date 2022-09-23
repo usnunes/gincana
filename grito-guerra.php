@@ -71,23 +71,11 @@
     <!-- Fixed navbar -->
     <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
         <div class="container-fluid">
-        <a class="navbar-brand" href="https://getbootstrap.com/docs/5.2/examples/sticky-footer-navbar/#" style="font-weight: bold;">PSJE - Gincana Bíblica</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <!--<div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="https://getbootstrap.com/docs/5.2/examples/sticky-footer-navbar/#">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://getbootstrap.com/docs/5.2/examples/sticky-footer-navbar/#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-            </li>
-            </ul>        
-        </div>-->
+            <a class="navbar-brand" href="index.php" style="font-weight: bold;">PSJE - Gincana Bíblica</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <?php include_once "menu.php"; ?>
         </div>
     </nav>
     </header>
@@ -96,27 +84,29 @@
     <main class="flex-shrink-0">
     <div class="container">    
     </div>
-    <div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-header"><h2 style="text-align: center;">Pontuação por Grito de Guerra</h2></div>
-                <div class="card m-b-20">
-                    <canvas id="myChart" width="800" height="400" style="background-color: gainsboro;"></canvas>
+    <div class="card">
+        <a type="button" href="index.php" class="btn btn-secondary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+            <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+            </svg>
+            Início
+        </a>   
+    </div>
+    <div class="container" style="padding-top: 10px;">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header"><h2 style="text-align: center;">Pontuação por Grito de Guerra</h2></div>
+                    <div class="card m-b-20">
+                        <canvas id="myChart" width="800" height="400" style="background-color: gainsboro;"></canvas>
+                    </div>
                 </div>
             </div>
+            <?php            
+                include_once "pontuacao.php";
+            ?>
         </div>
-        <?php
-            $gg1 = 60; //Preto - São Bento
-            $gg2 = 10; //Roxo - Santo Afonso
-            $gg3 = 30; //Azul - São Gabriel
-            $gg4 = 10; //Vermelho - Santo Agostinho 
-            $gg5 = 10; //Verde - São Rafael
-            $gg6 = 10; //Amarelo - São Sebastião
-            $gg7 = 10; //Laranja - São Miguel
-            $gg8 = 10; //Branco - São Domingo Sávio
-        ?>
-    </div>
     </div>
     </main>
 

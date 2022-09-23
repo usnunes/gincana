@@ -94,19 +94,19 @@
         </a>   
     </div>
     <div class="container" style="padding-top: 10px;">
-    <div class="row justify-content-center">
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-header"><h2 style="text-align: center;">Pontuação por Bíblias</h2></div>
-                <div class="card m-b-20">
-                    <canvas id="myChart" width="800" height="400" style="background-color: gainsboro;"></canvas>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header"><h2 style="text-align: center;">Pontuação - Jogos Bíblicos</h2></div>
+                    <div class="card m-b-20">
+                        <canvas id="myChart" width="800" height="400" style="background-color: gainsboro;"></canvas>
+                    </div>
                 </div>
             </div>
+            <?php
+                include_once "pontuacao.php";    
+            ?>
         </div>
-        <?php
-            include_once "pontuacao.php";    
-        ?>
-    </div>
     </div>
     </main>
 
@@ -126,10 +126,10 @@
                         'São Rafael', 'São Sebastião', 'São Miguel', 'São Domingos Sávio'],
                 datasets: [{
                     label: 'Pontuação',
-                    data: [ "<?php echo $bb1;?>", "<?php echo $bb2;?>",
-                            "<?php echo $bb3;?>", "<?php echo $bb4;?>",
-                            "<?php echo $bb5;?>", "<?php echo $bb6;?>",
-                            "<?php echo $bb7;?>", "<?php echo $bb8;?>"],
+                    data: [ "<?php echo $jb1;?>", "<?php echo $jb2;?>",
+                            "<?php echo $jb3;?>", "<?php echo $jb4;?>",
+                            "<?php echo $jb5;?>", "<?php echo $jb6;?>",
+                            "<?php echo $jb7;?>", "<?php echo $jb8;?>"],
                     backgroundColor: [
                         'RGBA( 0, 0, 0, 1 )',
                         'RGBA( 138, 43, 226, 1 )',
