@@ -22,14 +22,14 @@
 	$al8 = 00; 			//Branco - São Domingo Sávi
 	
 	//Pontuação - Grito de Guerra
-	$gg1 = 00; 			//Preto - São Bento
-	$gg2 = 00; 			//Roxo - Santo Afonso
-	$gg3 = 00; 			//Azul - São Gabriel
-	$gg4 = 00; 			//Vermelho - Santo Agostinho 
-	$gg5 = 00; 			//Verde - São Rafael
-	$gg6 = 00; 			//Amarelo - São Sebastião
-	$gg7 = 00; 			//Laranja - São Miguel
-	$gg8 = 00; 			//Branco - São Domingo Sávio
+	$gg1 = 50; 			//Preto - São Bento
+	$gg2 = 50; 			//Roxo - Santo Afonso
+	$gg3 = 50; 			//Azul - São Gabriel
+	$gg4 = 50; 			//Vermelho - Santo Agostinho 
+	$gg5 = 50; 			//Verde - São Rafael
+	$gg6 = 50; 			//Amarelo - São Sebastião
+	$gg7 = 50; 			//Laranja - São Miguel
+	$gg8 = 50; 			//Branco - São Domingo Sávio
 
 	//Pontuação - Bíblias
 	$bb1 = 00; 			//Preto - São Bento
