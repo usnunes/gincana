@@ -12,14 +12,14 @@
 	$go8 = 00 + 00; 		//Branco - São Domingo Sávio
 
  	// Pontuação - Alimentos
-	$al1 = 02; 			//Preto - São Bento
-	$al2 = 150; 			//Roxo - Santo Afonso
-	$al3 = 00; 			//Azul - São Gabriel
-	$al4 = 48; 				//Vermelho - Santo Agostinho 
-	$al5 = 110; 			//Verde - São Rafael
-	$al6 = 18; 				//Amarelo - São Sebastião
-	$al7 = 00; 			//Laranja - São Miguel
-	$al8 = 00; 			//Branco - São Domingo Sávi
+	$al1 = 2 + 20; 			//Preto - São Bento
+	$al2 = 150 + 195; 			//Roxo - Santo Afonso
+	$al3 = 0 + 0; 			//Azul - São Gabriel
+	$al4 = 48 + 127; 				//Vermelho - Santo Agostinho 
+	$al5 = 110 + 223; 			//Verde - São Rafael
+	$al6 = 18 + 77; 				//Amarelo - São Sebastião
+	$al7 = 0 + 102; 			//Laranja - São Miguel
+	$al8 = 0 + 70; 			//Branco - São Domingo Sávi
 	
 	//Pontuação - Grito de Guerra
 	$gg1 = 50; 			//Preto - São Bento
