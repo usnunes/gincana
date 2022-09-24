@@ -22,24 +22,24 @@
 	$al8 = 0 + 70 +285; 			//Branco - São Domingo Sávi
 	
 	//Pontuação - Grito de Guerra
-	$gg1 = 50; 			//Preto - São Bento
-	$gg2 = 50; 			//Roxo - Santo Afonso
-	$gg3 = 50; 			//Azul - São Gabriel
-	$gg4 = 50; 			//Vermelho - Santo Agostinho 
-	$gg5 = 50; 			//Verde - São Rafael
-	$gg6 = 50; 			//Amarelo - São Sebastião
-	$gg7 = 50; 			//Laranja - São Miguel
-	$gg8 = 50; 			//Branco - São Domingo Sávio
+	$gg1 = 50+655; 			//Preto - São Bento
+	$gg2 = 50+658; 			//Roxo - Santo Afonso
+	$gg3 = 50+418; 			//Azul - São Gabriel
+	$gg4 = 50+294; 			//Vermelho - Santo Agostinho 
+	$gg5 = 50+630; 			//Verde - São Rafael
+	$gg6 = 50+597; 			//Amarelo - São Sebastião
+	$gg7 = 50+671; 			//Laranja - São Miguel
+	$gg8 = 50+597; 			//Branco - São Domingo Sávio
 	
 	//Pontuação - Bíblias
-	$bb1 = 00; 			//Preto - São Bento
-	$bb2 = 00; 			//Roxo - Santo Afonso
-	$bb3 = 00; 			//Azul - São Gabriel
-	$bb4 = 00; 			//Vermelho - Santo Agostinho 
-	$bb5 = 00; 			//Verde - São Rafael
-	$bb6 = 00; 			//Amarelo - São Sebastião
-	$bb7 = 00; 			//Laranja - São Miguel
-	$bb8 = 00; 			//Branco - São Domingo Sávio
+	$bb1 = 990; 			//Preto - São Bento
+	$bb2 = 1570; 			//Roxo - Santo Afonso
+	$bb3 = 960; 			//Azul - São Gabriel
+	$bb4 = 1060; 			//Vermelho - Santo Agostinho 
+	$bb5 = 1020; 			//Verde - São Rafael
+	$bb6 = 430; 			//Amarelo - São Sebastião
+	$bb7 = 660; 			//Laranja - São Miguel
+	$bb8 = 1530; 			//Branco - São Domingo Sávio
 
 	//Pontuação - Jogos Bíblicos
 	$jb1 = 00; 			//Preto - São Bento
