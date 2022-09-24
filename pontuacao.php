@@ -52,13 +52,13 @@
 	$jb8 = 800; 			//Branco - São Domingo Sávio
 
 	//Pontuação - Geral	
-	$pg1 = $go1 + $al1 + $gg1 + $bb1;		//Preto 	- São Bento
-	$pg2 = $go2 + $al2 + $gg2 + $bb2;		//Roxo 		- Santo Afonso
-	$pg3 = $go3 + $al3 + $gg3 + $bb3;		//Azul 		- São Gabriel
-	$pg4 = $go4 + $al4 + $gg4 + $bb4;		//Vermelho 	- Santo Agostinho 
-	$pg5 = $go5 + $al5 + $gg5 + $bb5;		//Verde 	- São Rafael
-	$pg6 = $go6 + $al6 + $gg6 + $bb6;		//Amarelo 	- São Sebastião
-	$pg7 = $go7 + $al7 + $gg7 + $bb7;		//Laranja 	- São Miguel
-	$pg8 = $go8 + $al8 + $gg8 + $bb8;		//Branco 	- São Domingo Sávio
+	$pg1 = $go1 + $al1 + $gg1 + $bb1 +$jb1;		//Preto 	- São Bento
+	$pg2 = $go2 + $al2 + $gg2 + $bb2 +$jb2;		//Roxo 		- Santo Afonso
+	$pg3 = $go3 + $al3 + $gg3 + $bb3 +$jb3;		//Azul 		- São Gabriel
+	$pg4 = $go4 + $al4 + $gg4 + $bb4 +$jb4;		//Vermelho 	- Santo Agostinho 
+	$pg5 = $go5 + $al5 + $gg5 + $bb5 +$jb5;		//Verde 	- São Rafael
+	$pg6 = $go6 + $al6 + $gg6 + $bb6 +$jb6;		//Amarelo 	- São Sebastião
+	$pg7 = $go7 + $al7 + $gg7 + $bb7 +$jb7;		//Laranja 	- São Miguel
+	$pg8 = $go8 + $al8 + $gg8 + $bb8 +$jb8;		//Branco 	- São Domingo Sávio
 
 ?>
