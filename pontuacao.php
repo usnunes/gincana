@@ -1,5 +1,5 @@
 <?php 
-	$ultAtualização = '23/09/2022 09:00';
+	$ultAtualização = '24/09/2022 08:25';
  	
 	//Pontuação - Grupo de Oração
 	$go1 = 60 + 70 +70; 		//Preto - São Bento
