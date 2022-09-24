@@ -2,14 +2,14 @@
 	$ultAtualização = '23/09/2022 09:00';
  	
 	//Pontuação - Grupo de Oração
-	$go1 = 60 + 70; 		//Preto - São Bento
-	$go2 = 10 + 30; 		//Roxo - Santo Afonso
-	$go3 = 30 + 70; 		//Azul - São Gabriel
-	$go4 = 00 + 40; 		//Vermelho - Santo Agostinho 
-	$go5 = 10 + 10; 		//Verde - São Rafael
-	$go6 = 00 + 00; 		//Amarelo - São Sebastião
-	$go7 = 10 + 00; 		//Laranja - São Miguel
-	$go8 = 00 + 00; 		//Branco - São Domingo Sávio
+	$go1 = 60 + 70 +70; 		//Preto - São Bento
+	$go2 = 10 + 30 +30; 		//Roxo - Santo Afonso
+	$go3 = 30 + 70 +40; 		//Azul - São Gabriel
+	$go4 = 00 + 40 +80; 		//Vermelho - Santo Agostinho 
+	$go5 = 10 + 10 +90; 		//Verde - São Rafael
+	$go6 = 00 + 00 +30; 		//Amarelo - São Sebastião
+	$go7 = 10 + 00 +120; 		//Laranja - São Miguel
+	$go8 = 00 + 00 +50; 		//Branco - São Domingo Sávio
 
  	// Pontuação - Alimentos
 	$al1 = 2 + 20; 			//Preto - São Bento
