@@ -1,5 +1,5 @@
 <?php 
-	$ultAtualização = '24/09/2022 08:25';
+	$ultAtualização = '24/09/2022 17:50';
  	
 	//Pontuação - Grupo de Oração
 	$go1 = 60 + 70 +70; 		//Preto - São Bento
@@ -42,14 +42,14 @@
 	$bb8 = 1530; 			//Branco - São Domingo Sávio
 
 	//Pontuação - Jogos Bíblicos
-	$jb1 = 00; 			//Preto - São Bento
-	$jb2 = 00; 			//Roxo - Santo Afonso
-	$jb3 = 00; 			//Azul - São Gabriel
-	$jb4 = 00; 			//Vermelho - Santo Agostinho 
-	$jb5 = 00; 			//Verde - São Rafael
-	$jb6 = 00; 			//Amarelo - São Sebastião
-	$jb7 = 00; 			//Laranja - São Miguel
-	$jb8 = 00; 			//Branco - São Domingo Sávio
+	$jb1 = 1555; 			//Preto - São Bento
+	$jb2 = 1150; 			//Roxo - Santo Afonso
+	$jb3 = 1000; 			//Azul - São Gabriel
+	$jb4 = 810; 			//Vermelho - Santo Agostinho 
+	$jb5 = 1405; 			//Verde - São Rafael
+	$jb6 = 950; 			//Amarelo - São Sebastião
+	$jb7 = 1350; 			//Laranja - São Miguel
+	$jb8 = 800; 			//Branco - São Domingo Sávio
 
 	//Pontuação - Geral	
 	$pg1 = $go1 + $al1 + $gg1 + $bb1;		//Preto 	- São Bento
