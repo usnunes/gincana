@@ -209,6 +209,18 @@
                             </div>
                         </div> 
                     </div>
+
+                    <div class="col-sm-6" style="margin-top: 15px;margin-bottom: 15px;padding-left: 24px;">
+                        <div class="card widget-flat" style="background-color: rgb(195 255 185);">
+                            <div class="card-body">
+                                <div class="float-end">
+                                    <i class="mdi mdi-pulse widget-icon"></i>
+                                </div>
+                                <h5 class="text-muted mt-0" title="Growth">Respostas Corretas - Livro de Lucas</h5>
+                                <h3 class="mt-3 mb-3">92</h3>
+                            </div>
+                        </div> 
+                    </div>
                 </div> 
 
             </div>
