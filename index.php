@@ -198,7 +198,12 @@
                                     <i class="mdi mdi-pulse widget-icon"></i>
                                 </div>
                                 <h5 class="text-muted mt-0" title="Growth">Jogos Bíblicos</h5>
-                                <h3 class="mt-3 mb-3"><?php echo ($pg1+$pg2+$pg3+$pg4+$pg5+$pg6+$pg7+$pg8) ?></h3>
+                                <h3 class="mt-3 mb-3"><?php 
+                                                        echo ($pg1+$pg2+$pg3+$pg4+$pg5+$pg6+$pg7+$pg8)
+                                                             -($go1+$go2+$go3+$go4+$go5+$go6+$go7+$go8) 
+                                                             -($al1+$al2+$al3+$al4+$al5+$al6+$al7+$al8)
+                                                             -($gg1+$gg2+$gg3+$gg4+$gg5+$gg6+$gg7+$gg8)
+                                                             -($bb1+$bb2+$bb3+$bb4+$bb5+$bb6+$bb7+$bb8)?></h3>
                                  <a type="button" href="jogos-biblicos.php" class="btn btn-secondary" style="--bs-btn-hover-bg: #2876c3;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
                                     <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"></path>
