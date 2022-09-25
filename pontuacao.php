@@ -49,7 +49,7 @@
 	$jbAn5 = 105; 			//Verde - São Rafael
 	$jbAn6 = 100; 			//Amarelo - São Sebastião
 	$jbAn7 = 50; 			//Laranja - São Miguel
-	$jbAn8 = 10; 			//Branco - São Domingo Sávio
+	$jbAn8 = 100; 			//Branco - São Domingo Sávio
 
 	//Pontuação - Jogos Bíblicos - CORRIDA MAÇÃ
  $jbCM1 = 150; 			//Preto - São Bento
@@ -82,7 +82,7 @@
 	$jbCC8 = 50; 			//Branco - São Domingo Sávio
 
 	//Pontuação - Jogos Bíblicos - ARGOLA
- $jbAr1 = 100; 			//Preto - São Bento
+ $jbAr1 = 150; 			//Preto - São Bento
 	$jbAr2 = 50; 			//Roxo - Santo Afonso
 	$jbAr3 = 50; 			//Azul - São Gabriel
 	$jbAr4 = 100; 			//Vermelho - Santo Agostinho 
